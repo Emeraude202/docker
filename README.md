@@ -237,18 +237,6 @@ Docker permet de créer, gérer et connecter des réseaux personnalisés pour qu
 
 ---
 
-## 8. Types de réseaux Docker
-
-| Type           | Description |
-|----------------|-------------|
-| `bridge` (par défaut) | Réseau local privé pour les conteneurs sur le même hôte. Utilisé par défaut par `docker run`. |
-| `host`         | Utilise directement le réseau de l’hôte (pas d'isolation réseau). |
-| `none`         | Aucun accès réseau. |
-| `overlay`      | Réseau distribué utilisé avec Docker Swarm, permettant la communication entre conteneurs sur plusieurs hôtes. |
-| `macvlan`      | Attribue une adresse IP directe depuis le réseau physique à chaque conteneur. |
-
----
-
 ## 9. Commandes de base
 
 **Lister les réseaux existants**
